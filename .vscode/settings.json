@@ -9,7 +9,8 @@
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": ["--line-length", "110"],
     "python.linting.flake8Args": [
-        "--max-line-length=110"
+        "--max-line-length=110",
+        "--ignore=W293,E302,E266,W391,E402,E226,E251,W291,E116,E502,E501"
     ],
     "editor.formatOnSave": true
     // "python.linting.flake8Enabled": true,
