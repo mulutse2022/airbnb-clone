@@ -1,16 +1,15 @@
 {
     "python.pythonPath": "/home/me/.local/share/virtualenvs/airbnb-clone-XYJ7WXpS/bin/activate",
-    //"python.linting.pep8Path": "pycodestyle",
-	"python.linting.flake8Path": "pyflakes",
     "python.linting.flake8Enabled": true,
+	"python.linting.flake8Path": "pyflakes",
     "python.linting.pylintEnabled": false,
     //"python.linting.flake8Path": "flake8",
     "python.linting.enabled": true,
     "python.formatting.provider": "black",
-    "python.formatting.blackArgs": ["--line-length", "110"],
+    //"python.formatting.blackArgs": ["--line-length", "110"],
     "python.linting.flake8Args": [
         "--max-line-length=110",
-        "--ignore=W293,E302,E266,W391,E402,E226,E251,W291,E116,E502,E501"
+        "--ignore=W293,E302,E266,W391,E402,E122,E123,E226,E251,E303,W291,E116,E502,E501"
     ],
     "editor.formatOnSave": true
     // "python.linting.flake8Enabled": true,
